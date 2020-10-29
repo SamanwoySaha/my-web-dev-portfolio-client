@@ -19,4 +19,11 @@
     background-color:#fdb137;
     color: var(--blue-color);
     font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.date{
+    position: relative;
+    top: 7px;
 }
