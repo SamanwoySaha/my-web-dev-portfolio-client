@@ -1,0 +1,10 @@
+.footer-icon{
+    color: var(--blue-color);
+    position: relative;
+    top: -2px;
+    left: 0;
+}
+
+.footer a {
+    transition: all linear 0.4s !important;
+}

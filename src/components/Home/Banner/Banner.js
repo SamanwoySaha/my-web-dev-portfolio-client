@@ -11,12 +11,10 @@ const Banner = () => {
     }
 
     return (
-        <div className="banner">
+        <section className="banner">
             <Container className="px-0">
                 <div className="row">
-                    <div className="col-md-6">
-                    </div>
-                    <div className="col-md-6">
+                    <div className="col-sm-12 offset-md-6 col-md-6">
                         <div className="banner-content text-right">
                             <img className="img-fluid w-50" src="https://i.imgur.com/xjpx9j2.png" alt=""/>
                             <h2>Hello, I'm</h2>
@@ -35,7 +33,7 @@ const Banner = () => {
                     </div>
                 </div>
             </Container>
-        </div>
+        </section>
     );
 };
 

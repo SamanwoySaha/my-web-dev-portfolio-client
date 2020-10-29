@@ -1,0 +1,18 @@
+.contact {
+    padding: 30px;
+    margin: 100px auto 80px;
+    width: 500px;
+    text-align: center;
+    background-color: var(--skyBlue-color);
+    border-radius: 5px;
+}
+
+.contact input {
+    margin: 10px 0;
+}
+
+.message{
+    height: 100px !important;
+    resize: none !important;
+    margin-bottom: 10px;
+}
