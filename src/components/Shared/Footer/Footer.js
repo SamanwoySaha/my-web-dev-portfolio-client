@@ -6,7 +6,7 @@ import { FaCodeBranch } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <section className="footer text-center">
+        <section className="footer text-center mt-4">
             <p className="mb-2">
                 Designed and Developed by 
                 <a className="ml-1 special" href="https://github.com/SamanwoySaha">Samanwoy Saha</a>
