@@ -21,7 +21,7 @@ const DisplayCard = ({ data }) => {
                             : <><FaFirefoxBrowser className="icon mt-n1" /> View Article</>
                         }
                     </a>
-                    {data.githubClient && <a href={data.githubClient} className="card-footer-content ml-auto mr-1"><FaGithub className="icon ml-1 mt-n1" /> Client</a>}
+                    {data.githubClient && <a href={data.githubClient} className="card-footer-content ml-auto mr-2"><FaGithub className="icon ml-1 mt-n1" /> Client</a>}
                     {data.githubServer && <a href={data.githubServer} className="card-footer-content"><FaGithub className="icon ml-1 mt-n1" /> Server</a>}
                     {data.date && <p className="date">{data.date}</p>}
                 </div>

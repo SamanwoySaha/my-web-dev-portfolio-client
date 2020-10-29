@@ -1,0 +1,9 @@
+.featuredCard {
+    margin: 20px 0;
+}
+
+.featuredCard-content{
+    padding: 30px;
+    border-radius: 7px;
+    background-color: rgb(240, 240, 240);
+}

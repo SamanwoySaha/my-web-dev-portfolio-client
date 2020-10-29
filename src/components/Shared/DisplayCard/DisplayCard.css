@@ -1,9 +1,15 @@
 .card{
-    width: 31% !important;
+    width: 30% !important;
     margin: 18px 10px;
     border: none !important;
     outline: none !important;
     box-shadow: 2px 2px 10px rgb(235, 235, 235) !important;
+    transform: scale(1);
+    transition: all linear 0.4s;
+}
+
+.card:hover{
+    transform: scale(1.08);
 }
 
 .card-footer{
@@ -21,6 +27,11 @@
     font-size: 13px;
     text-align: center;
     line-height: 30px;
+    transition: all linear 0.4s;
+}
+
+.card-footer-content:hover{
+    box-shadow: 2px 2px 10px rgb(226, 226, 226);
 }
 
 .date{
