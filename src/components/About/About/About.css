@@ -1,27 +1,6 @@
-.about {
-    position: relative;
-    width: 100%;
-    height: 600px;
-}
-
-.about::before{
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(https://i.imgur.com/zurBRiE.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-}
-
 .about-subHeading{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     color: #222;
 }
 
@@ -31,4 +10,9 @@
     color: white !important;
     font-weight: 400 !important;
     padding: 6px !important;
+}
+
+.skill-details{
+    padding: 30px;
+    background-color: #f0f7ff;
 }

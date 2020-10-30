@@ -14,3 +14,34 @@
 .header-link:hover {
     border-bottom: 2px solid var(--skyBlue-color);
 }
+
+.header-icon-title{
+    margin-right: 40px;
+    font-weight: 600;
+    color: var(--skyBlue-color);
+    position: relative;
+}
+
+.header-icon-title::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 90px;
+    width: 40px;
+    height: 2px;
+    border-top: 3px dotted lightgray;
+}
+
+.header-icon{
+    position: relative;
+    top: 0;
+    font-size: 24px;
+    color: var(--skyBlue-color);
+    transition: all linear 0.4s;
+}
+
+.header-icon:hover {
+    cursor: pointer;
+    top: -5px;
+    color: var(--blue-color);
+}

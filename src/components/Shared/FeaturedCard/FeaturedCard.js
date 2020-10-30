@@ -13,7 +13,7 @@ const FeaturedCard = ({ data }) => {
             <div className="col-md-2">
                 <img className="img-fluid" src="https://i.imgur.com/U2LDuNB.png" alt="" />
             </div>
-            <div className="featuredCard-content col-md-4">
+            <div className="featuredCard-content col-md-4 px-4">
                 <h5 className="card-title">{name}</h5>
                 <p className="card-text">{description}</p>
                 <h6>{technologies.map(technology => <span className="mr-1 my-1 badge badge-info">{technology}</span>)}</h6>
