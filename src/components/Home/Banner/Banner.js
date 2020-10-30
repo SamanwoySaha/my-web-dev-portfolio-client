@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import './Banner.css';
 import { FaFilePdf, FaEnvelope } from 'react-icons/fa';
 import { useHistory } from 'react-router-dom';
-import { FaGithubSquare, FaMedium, FaLinkedin, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
+import { FaGithub, FaMediumM, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 import Typical from 'react-typical';
 
 const Banner = () => {
@@ -25,22 +25,26 @@ const Banner = () => {
                                 <img className="img-fluid profile-img mr-4" src="https://i.imgur.com/xjpx9j2.png" alt="" />
                                 <div className="text-left">
                                     <Typical
-                                        steps={['<>Hello World!</>', 2000, "I'm", 3000]}
+                                        steps={["Hey, Welcome", 2000, "I'm", 4000]}
                                         loop={Infinity}
                                         wrapper="h2"
                                     />
                                     <h1><span className="special">Samanwoy</span> Saha</h1>
-                                    <h4 className="mb-3">Web Developer | Programmer</h4>
+                                    <Typical
+                                        steps={["Web Developer", 2000, "Programmer", 2000, 'Web Developer | Programmer', 2000]}
+                                        loop={Infinity}
+                                        wrapper="h4"
+                                        className="mb-3"
+                                    />
                                     <div className="d-inline">
-                                        <a href="http://github.com/SamanwoySaha"><FaGithubSquare className="header-icon icon mr-2" /></a>
-                                        <a href="https://medium.com/@samanwoy-saha"><FaMedium className="header-icon icon mx-2" /></a>
-                                        <a href="https://www.linkedin.com/in/samanwoy-saha/"><FaLinkedin className="header-icon icon mx-2" /></a>
-                                        <a href="#"><FaFacebookSquare className="header-icon icon mx-2" /></a>
-                                        <a href="#"><FaTwitterSquare className="header-icon icon mx-2" /></a>
+                                        <a className="header-icon ml-n2" href="http://github.com/SamanwoySaha"><FaGithub className="icon mx-3" /></a>
+                                        <a className="header-icon" href="https://medium.com/@samanwoy-saha"><FaMediumM className="icon mx-3" /></a>
+                                        <a className="header-icon" href="https://www.linkedin.com/in/samanwoy-saha/"><FaLinkedinIn className="icon mx-3" /></a>
+                                        <a className="header-icon" href="https://stackoverflow.com/users/14548043/samanwoy-saha"><FaStackOverflow className="icon mx-3" /></a>
                                     </div>
                                 </div>
                             </div>
-                            <p style={{ width: '650px' }}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, enim sed incidunt culpa aut possimus. Dolor laborum nisi error dolore asperiores possimus magni iure quidem, totam dolorum, accusamus unde ratione.</p>
+                            <p style={{ width: '650px' }}>Fix the cause, not the symtom and first, visualize then execute are my motto in programming. Hey, Welcome. Let me introduce myself. I am Samanwoy Saha, a Web Developer and Engineer.</p>
                             <div className="d-flex justify-content-between align-items-center">
                                 <div>
                                     <button onClick={handleGotoContact} className="main-btn ml-0">

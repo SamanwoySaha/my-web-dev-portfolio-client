@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import { Link, useRouteMatch } from 'react-router-dom';
 import './Header.css';
 import Container from 'react-bootstrap/Container';
-import { FaGithub, FaMediumM, FaLinkedinIn, FaFacebook, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaMediumM, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 
 const Header = () => {
     const {path} = useRouteMatch();
@@ -20,11 +20,10 @@ const Header = () => {
             <Container>
                 <div className="mr-auto mt-n1">
                     <h6 className="header-icon-title d-inline badge badge-primary">Follow me</h6>
-                    <a href="http://github.com/SamanwoySaha"><FaGithub className="header-icon icon mx-3" /></a>
-                    <a href="https://medium.com/@samanwoy-saha"><FaMediumM className="header-icon icon mx-3" /></a>
-                    <a href="https://www.linkedin.com/in/samanwoy-saha/"><FaLinkedinIn className="header-icon icon mx-3" /></a>
-                    <a href="#"><FaFacebook className="header-icon icon mx-3" /></a>
-                    <a href="#"><FaTwitter className="header-icon icon mx-3" /></a>
+                    <a className="header-icon" href="http://github.com/SamanwoySaha"><FaGithub className="icon mx-3" /></a>
+                    <a className="header-icon" href="https://medium.com/@samanwoy-saha"><FaMediumM className="icon mx-3" /></a>
+                    <a className="header-icon" href="https://www.linkedin.com/in/samanwoy-saha/"><FaLinkedinIn className="icon mx-3" /></a>
+                    <a className="header-icon" href="https://stackoverflow.com/users/14548043/samanwoy-saha"><FaStackOverflow className="icon mx-3" /></a>
                 </div>
                 <Nav className="ml-auto">
                     <Link className={`header-link ${activeHome}`} to="/">Home</Link>

@@ -6,15 +6,18 @@ import FeaturedArticles from '../FeaturedArticles/FeaturedArticles';
 import FeaturedProjects from '../FeaturedProjects/FeaturedProjects';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import './Home.css';
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
-            <Banner></Banner>
-            <FeaturedProjects></FeaturedProjects>
-            <FeaturedArticles></FeaturedArticles>
-            <GetInTouch></GetInTouch>
+            <Fade>
+                <Banner></Banner>
+                <FeaturedProjects></FeaturedProjects>
+                <FeaturedArticles></FeaturedArticles>
+                <GetInTouch></GetInTouch>
+            </Fade>
             <Footer></Footer>
         </div>
     );
