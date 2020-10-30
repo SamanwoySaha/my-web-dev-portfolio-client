@@ -19,7 +19,7 @@ const Header = () => {
         <Navbar className="mt-3" bg="white" variant="light">
             <Container>
                 <div className="mr-auto mt-n1">
-                    <h6 className="header-icon-title d-inline">Follow me</h6>
+                    <h6 className="header-icon-title d-inline badge badge-primary">Follow me</h6>
                     <a href="http://github.com/SamanwoySaha"><FaGithub className="header-icon icon mx-3" /></a>
                     <a href="https://medium.com/@samanwoy-saha"><FaMediumM className="header-icon icon mx-3" /></a>
                     <a href="https://www.linkedin.com/in/samanwoy-saha/"><FaLinkedinIn className="header-icon icon mx-3" /></a>

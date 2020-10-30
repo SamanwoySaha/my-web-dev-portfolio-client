@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import { skills } from '../../../fakeData/fakeData';
 import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
+import { FaGithubSquare, FaMedium, FaLinkedin, FaFacebookSquare, FaTwitterSquare } from "react-icons/fa";
 import './About.css';
 
 const About = () => {
@@ -13,9 +14,16 @@ const About = () => {
                 <Container>
                     <div className="row mt-5 d-flex justify-content-between align-items-center">
                         <div className="col-md-6 mt-5">
-                            <img className="img-fluid w-50 mb-3" src="https://i.imgur.com/xjpx9j2.png" alt="" />
+                            <img className="img-fluid profile-img mb-3" src="https://i.imgur.com/xjpx9j2.png" alt="" />
                             <h2>I'm <span className="special">Samanwoy</span> Saha</h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam laborum facere, neque veritatis obcaecati deleniti repellendus eligendi. Inventore, quasi ex unde saepe at magnam iusto doloremque laboriosam ipsum dolore quibusdam?</p>
+                            <div className="d-block">
+                                <a href="http://github.com/SamanwoySaha"><FaGithubSquare className="header-icon icon mr-2" /></a>
+                                <a href="https://medium.com/@samanwoy-saha"><FaMedium className="header-icon icon mx-2" /></a>
+                                <a href="https://www.linkedin.com/in/samanwoy-saha/"><FaLinkedin className="header-icon icon mx-2" /></a>
+                                <a href="#"><FaFacebookSquare className="header-icon icon mx-2" /></a>
+                                <a href="#"><FaTwitterSquare className="header-icon icon mx-2" /></a>
+                            </div>
                         </div>
                         <div className="col-md-6 mt-5">
                             <div className="skill-details">
