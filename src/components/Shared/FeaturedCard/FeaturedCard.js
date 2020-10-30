@@ -7,13 +7,13 @@ const FeaturedCard = ({ data }) => {
 
     return (
         <div className="row featuredCard d-flex align-items-center">
-            <div className="col-md-6">
+            <div className="col-sm-12 col-md-6">
                 <img style={{ borderRadius: '5px' }} src={image} className="img-fluid" alt="" />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 d-none d-md-block">
                 <img className="img-fluid" src="https://i.imgur.com/U2LDuNB.png" alt="" />
             </div>
-            <div className="featuredCard-content col-md-4 px-4">
+            <div className="featuredCard-content col-sm-12 col-md-4 px-4">
                 <h5 className="card-title">{name}</h5>
                 <p className="card-text">{description}</p>
                 <h6>{technologies.map(technology => <span className="mr-1 my-1 badge badge-info">{technology}</span>)}</h6>

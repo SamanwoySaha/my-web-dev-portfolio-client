@@ -9,7 +9,7 @@ const FeaturedProjects = () => {
         <section className="featuredProjects">
             <div className="container">
             <div className="d-flex justify-content-between">
-                    <h1 className="special mb-5">Some of my projects</h1>
+                    <h1 className="special mb-5 heading">Some of my projects</h1>
                     <Link to='/projects' style={{height: '44px'}} className="main-btn">View all</Link>
                 </div>
                 <div className="row">

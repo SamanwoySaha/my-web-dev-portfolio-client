@@ -18,3 +18,9 @@ a{
 .profile-img{
   width: 30%;
 }
+
+@media (max-width: 768px){
+  .heading{
+    font-size: 26px !important;
+  }
+}

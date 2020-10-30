@@ -16,7 +16,7 @@ const About = () => {
                     <div className="row mt-4">
                         <Fade>
                             <div className="col-md-8 mt-1 mx-auto text-center">
-                                <h2 className="special mb-5">About Me</h2>
+                                <h2 className="special mb-5 heading">About Me</h2>
                                 <img className="img-fluid w-25 profile-img mb-4" src="https://i.imgur.com/xjpx9j2.png" alt="" />
                                 <h4 className="special">Hey, Welcome</h4>
                                 <h5 className="mb-3">Let me introduce myself</h5>
@@ -52,7 +52,7 @@ const About = () => {
                             </div>
                             <div className="col-md-9 mt-5 mx-auto">
                                 <div className="skill-details mb-5">
-                                    <h3 className="special mb-4">Education</h3>
+                                    <h3 className="special mb-4 heading">Education</h3>
                                     <div className="d-flex align-items-center">
                                         <img style={{ width: '17%' }} className="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Logo_KUET.svg/1200px-Logo_KUET.svg.png" alt="" />
                                         <div className="pt-4 ml-4">
@@ -62,7 +62,7 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="skill-details mb-5">
-                                    <h3 className="special mb-4">Courses & Certificates</h3>
+                                    <h3 className="special mb-4 heading">Courses & Certificates</h3>
                                     <div className="d-flex align-items-center mb-3">
                                         <img style={{ width: '17%' }} className="img-fluid" src="https://i.imgur.com/dJRuYIK.png" alt="" />
                                         <div className="pt-4 ml-4">
@@ -94,7 +94,7 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="skill-details mb-5">
-                                    <h3 className="special mb-4">Achievements & Awards</h3>
+                                    <h3 className="special mb-4 heading">Achievements & Awards</h3>
                                     <div className="d-flex align-items-center mb-3">
                                         <img style={{ width: '17%' }} className="img-fluid" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Logo_KUET.svg/1200px-Logo_KUET.svg.png" alt="" />
                                         <div className="pt-4 ml-4">

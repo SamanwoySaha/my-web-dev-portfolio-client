@@ -12,7 +12,7 @@ const Projects = () => {
             <Header></Header>
             <section className="projects">
                 <div className="container px-0 mt-5">
-                    <h1 className="special mb-5">My Projects</h1>
+                    <h1 className="special mb-5 heading">My Projects</h1>
                     <Fade>
                         <div className="row d-flex justify-content-between flex-wrap">
                             {

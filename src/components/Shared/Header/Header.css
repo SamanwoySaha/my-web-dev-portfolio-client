@@ -64,3 +64,9 @@
     top: -5px;
     color: var(--skyBlue-color);
 }
+
+@media(max-width: 768px){
+    .header-link{
+        margin: 0 10px;
+    }
+}

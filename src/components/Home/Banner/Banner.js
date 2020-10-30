@@ -16,11 +16,11 @@ const Banner = () => {
         <section className="banner">
             <Container className="px-0">
                 <div className="row">
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-md-4 d-none d-md-block">
                         <img className="img-fluid banner-content" src="https://i.imgur.com/ja4BAdq.png" alt="" />
                     </div>
                     <div className="col-sm-12 col-md-8">
-                        <div className="banner-content" style={{ marginLeft: '100px' }}>
+                        <div className="banner-content leftSpacing">
                             <div className="d-flex align-items-center mb-4">
                                 <img className="img-fluid profile-img mr-4" src="https://i.imgur.com/xjpx9j2.png" alt="" />
                                 <div className="text-left">
@@ -44,7 +44,7 @@ const Banner = () => {
                                     </div>
                                 </div>
                             </div>
-                            <p style={{ width: '650px' }}>Fix the cause, not the symtom and first, visualize then execute are my motto in programming. Hey, Welcome. Let me introduce myself. I am Samanwoy Saha, a Web Developer and Engineer.</p>
+                            <p className="paragraph">Fix the cause, not the symtom and first, visualize then execute are my motto in programming. Hey, Welcome. Let me introduce myself. I am Samanwoy Saha, a Web Developer and Engineer.</p>
                             <div className="d-flex justify-content-between align-items-center">
                                 <div>
                                     <button onClick={handleGotoContact} className="main-btn ml-0">

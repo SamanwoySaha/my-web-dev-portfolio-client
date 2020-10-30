@@ -30,3 +30,21 @@
 .main-btn a{
     color: white !important;
 }
+
+.leftSpacing{
+    margin-left: 100px;
+}
+
+.paragraphSpacing{
+    width: 650px;
+}
+
+@media (max-width: 768px) {
+    .leftSpacing{
+        margin: 0 20px;
+    }
+
+    .paragraphSpacing{
+        width: auto;
+    }
+}

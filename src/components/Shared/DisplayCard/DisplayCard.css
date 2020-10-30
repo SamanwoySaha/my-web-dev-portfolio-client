@@ -38,3 +38,14 @@
     position: relative;
     top: 7px;
 }
+
+@media (max-width: 767px){
+    .card{
+        width: 100% !important;
+        transform: scale(0.9);
+    }
+
+    .card:hover{
+        transform: scale(1);
+    }
+}

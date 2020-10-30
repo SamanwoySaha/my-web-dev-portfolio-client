@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <Navbar className="mt-3" bg="white" variant="light">
             <Container>
-                <div className="mr-auto mt-n1">
+                <div className="mr-auto mt-n1 d-none d-md-block">
                     <h6 className="header-icon-title d-inline badge badge-primary">Follow me</h6>
                     <a className="header-icon" href="http://github.com/SamanwoySaha"><FaGithub className="icon mx-3" /></a>
                     <a className="header-icon" href="https://medium.com/@samanwoy-saha"><FaMediumM className="icon mx-3" /></a>

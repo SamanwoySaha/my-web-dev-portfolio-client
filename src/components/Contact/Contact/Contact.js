@@ -9,14 +9,14 @@ const Contact = () => {
         <div>
             <Header></Header>
             <section className="contact-container">
-                <div className="container">
+                <div className="container px-0">
                     <Fade>
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-md-6 d-none d-md-block">
                                 <img className="img-fluid" src="https://i.imgur.com/IfR4RwG.png" alt="" />
                             </div>
-                            <div className="col-md-6">
-                                <h2 className="special text-center contact-title">Get in Touch</h2>
+                            <div className="col-sm-12 col-md-6">
+                                <h2 className="special text-center contact-title heading">Get in Touch</h2>
                                 <form
                                     className="contact"
                                     action="https://formspree.io/f/mleondoe"
