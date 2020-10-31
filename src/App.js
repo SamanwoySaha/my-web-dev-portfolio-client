@@ -12,13 +12,11 @@ import {
   Route
 } from "react-router-dom";
 import NoMatch from './components/NoMatch/NoMatch';
-import { Sugar } from 'react-preloaders';
 
 function App() {
   return (
     <div className="app">
       <Router>
-        {/* <Sugar background="#4099f7"/> */}
         <Switch>
           <Route exact path="/">
             <Home></Home>

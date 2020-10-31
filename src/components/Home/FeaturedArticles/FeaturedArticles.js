@@ -14,7 +14,7 @@ const FeaturedArticles = () => {
                 </div>
                 <div className="row d-flex justify-content-between flex-wrap">
                     {
-                        blogs.slice(0, 3).map(project => <DisplayCard data={project}></DisplayCard>)
+                        blogs.slice(0, 3).map((project, index) => <DisplayCard key={index} data={project}></DisplayCard>)
                     }
                 </div>
             </div>

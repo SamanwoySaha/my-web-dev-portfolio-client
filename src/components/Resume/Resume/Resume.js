@@ -5,6 +5,7 @@ import { Document, Page } from 'react-pdf';
 import ResumePdf from '../../../pdf/Resume.pdf';
 import { Container } from 'react-bootstrap';
 import { FaFilePdf } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Resume = () => {
     const [numPages, setNumPages] = useState(null);
@@ -30,7 +31,7 @@ const Resume = () => {
     return (
         <div>
             <Header></Header>
-            <Container className="mx-auto mb-5 d-flex flex-column align-items-center">
+            <Container className="mx-auto mb-5 d-flex flex-column align-items-center topSpacing">
                 <Document
                     file={ResumePdf}
                     options={{ workerSrc: "/pdf.worker.js" }}
@@ -55,9 +56,9 @@ const Resume = () => {
                     </button>
                     </div>
                     <button className="main-btn mt-3">
-                        <a href='https://drive.google.com/file/d/1sDs2G2lW3txrw5QsLxhjJ0xSHE5-ImWL/view?usp=sharing'>
+                        <Link target="_blank" to={ResumePdf}>
                             <FaFilePdf className="icon mr-1" /> Download Resume
-                        </a>
+                        </Link>
                     </button>
                 </div>
             </Container>

@@ -19,8 +19,13 @@ a{
   width: 30%;
 }
 
+.topSpacing{
+  padding-top: 60px;
+}
+
 @media (max-width: 768px){
   .heading{
     font-size: 26px !important;
+    text-align: center;
   }
 }

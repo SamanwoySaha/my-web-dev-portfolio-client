@@ -1,6 +1,7 @@
 .banner {
     width: 100%;
     height: 600px;
+    margin-top: 20px;
 }
 
 .banner-content{
@@ -40,11 +41,27 @@
 }
 
 @media (max-width: 768px) {
+    .banner {
+        margin-top: -50px;
+    }
+
     .leftSpacing{
         margin: 0 20px;
     }
 
     .paragraphSpacing{
         width: auto;
+    }
+
+    .banner-profile-heading h2{
+        font-size: 20px !important;
+    }
+
+    .banner-profile-heading h1{
+        font-size: 28px !important;
+    }
+
+    .banner-profile-heading h4{
+        font-size: 18px !important;
     }
 }

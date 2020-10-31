@@ -11,9 +11,9 @@ const DisplayCard = ({ data }) => {
         <div className="card">
             <img src={image} className="card-img-top" alt="" />
             <div className="card-body">
-                <h5 className="card-title">{name}</h5>
+                <h5 className="card-title special-subHeading">{name}</h5>
                 <p className="card-text">{description}</p>
-                <h6>{technologies.map(technology => <span className="mr-1 my-1 badge badge-info">{technology}</span>)}</h6>
+                <h6>{technologies.map((technology, index) => <span key={index} className="mr-1 my-1 badge badge-info">{technology}</span>)}</h6>
                 <div className="card-footer d-flex align-items-center justify-content-between">
                     <a href={liveLink} className="card-footer-content">
                         {

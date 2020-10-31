@@ -10,13 +10,13 @@ const Projects = () => {
     return (
         <div>
             <Header></Header>
-            <section className="projects">
+            <section className="projects topSpacing">
                 <div className="container px-0 mt-5">
                     <h1 className="special mb-5 heading">My Projects</h1>
                     <Fade>
                         <div className="row d-flex justify-content-between flex-wrap">
                             {
-                                projects.map(project => <DisplayCard data={project}></DisplayCard>)
+                                projects.map(project => <DisplayCard key={project.name} data={project}></DisplayCard>)
                             }
                         </div>
                     </Fade>

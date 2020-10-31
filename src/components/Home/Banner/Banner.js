@@ -2,9 +2,10 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import './Banner.css';
 import { FaFilePdf, FaEnvelope } from 'react-icons/fa';
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { FaGithub, FaMediumM, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 import Typical from 'react-typical';
+import ResumePdf from '../../../pdf/Resume.pdf';
 
 const Banner = () => {
     const history = useHistory();
@@ -13,7 +14,7 @@ const Banner = () => {
     }
 
     return (
-        <section className="banner">
+        <section className="banner topSpacing">
             <Container className="px-0">
                 <div className="row">
                     <div className="col-md-4 d-none d-md-block">
@@ -23,7 +24,7 @@ const Banner = () => {
                         <div className="banner-content leftSpacing">
                             <div className="d-flex align-items-center mb-4">
                                 <img className="img-fluid profile-img mr-4" src="https://i.imgur.com/xjpx9j2.png" alt="" />
-                                <div className="text-left">
+                                <div className="text-left banner-profile-heading">
                                     <Typical
                                         steps={["Hey, Welcome", 2000, "I'm", 4000]}
                                         loop={Infinity}
@@ -51,9 +52,9 @@ const Banner = () => {
                                         <FaEnvelope className="icon mr-1" /> Hire me
                                     </button>
                                     <button className="main-btn">
-                                        <a href='https://drive.google.com/file/d/1sDs2G2lW3txrw5QsLxhjJ0xSHE5-ImWL/view?usp=sharing'>
+                                        <Link target="_blank" to={ResumePdf}>
                                             <FaFilePdf className="icon mr-1" /> Download Resume
-                                        </a>
+                                        </Link>
                                     </button>
                                 </div>
                             </div>

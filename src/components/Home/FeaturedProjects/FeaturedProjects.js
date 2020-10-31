@@ -14,7 +14,7 @@ const FeaturedProjects = () => {
                 </div>
                 <div className="row">
                     {
-                        projects.slice(0, 3).map(project => <FeaturedCard data={project}></FeaturedCard>)
+                        projects.slice(0, 3).map(project => <FeaturedCard key={project.name} data={project}></FeaturedCard>)
                     }
                 </div>
             </div>

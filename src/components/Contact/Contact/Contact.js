@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <div>
             <Header></Header>
-            <section className="contact-container">
+            <section className="contact-container topSpacing">
                 <div className="container px-0">
                     <Fade>
                         <div className="row">
