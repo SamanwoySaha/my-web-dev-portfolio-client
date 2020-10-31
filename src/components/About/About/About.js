@@ -35,23 +35,23 @@ const About = () => {
                                     <div className="mb-4">
                                         <h3 className="about-subHeading mb-4"><span className="special">My Skill</span> Set</h3>
                                         <h5 className="special-subHeading">Expertise</h5>
-                                        <h6>{skills.expertise.map(skill => <span className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
+                                        <h6>{skills.expertise.map(skill => <span key={skill} className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
                                         <h5 className="special-subHeading">Comfortable</h5>
-                                        <h6>{skills.comfortable.map(skill => <span className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
+                                        <h6>{skills.comfortable.map(skill => <span key={skill} className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
                                         <h5 className="special-subHeading">Familiar</h5>
-                                        <h6>{skills.familiar.map(skill => <span className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
+                                        <h6>{skills.familiar.map(skill => <span key={skill} className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
                                         <h5 className="special-subHeading">Tools</h5>
-                                        <h6>{skills.tools.map(skill => <span className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
+                                        <h6>{skills.tools.map(skill => <span key={skill} className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
                                         <h5 className="special-subHeading">Others</h5>
-                                        <h6>{skills.others.map(skill => <span className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
+                                        <h6>{skills.others.map(skill => <span key={skill} className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
                                     </div>
                                     <div className="mb-4">
                                         <h3 className="about-subHeading"><span className="special">Eager to work</span> with</h3>
-                                        <h6>{skills.workingSkills.map(skill => <span className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
+                                        <h6>{skills.workingSkills.map(skill => <span key={skill} className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
                                     </div>
                                     <div className="mb-4">
                                         <h3 className="about-subHeading">Prefer <span className="special">not to work</span> with</h3>
-                                        <h6>{skills.nonWorkingSkills.map(skill => <span className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
+                                        <h6>{skills.nonWorkingSkills.map(skill => <span key={skill} className="mr-1 my-1 badge badge-info">{skill}</span>)}</h6>
                                     </div>
                                 </div>
                             </div>
