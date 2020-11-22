@@ -9,7 +9,7 @@ const FeaturedArticles = () => {
         <section className="featuredArticles">
             <div className="container">
                 <div className="d-flex justify-content-between">
-                    <h1 className="special mb-5 heading">Some of my articles (Coming Soon...)</h1>
+                    <h1 className="special mb-5 heading">Some of my articles</h1>
                     <Link to='/blogs' style={{height: '44px'}} className="main-btn">View all</Link>
                 </div>
                 <div className="row d-flex justify-content-between flex-wrap">
